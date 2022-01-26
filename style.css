@@ -34,6 +34,7 @@ body {
     height: auto;
     border-radius: 10px;
 }
+
 .flex img{
     width: auto;
     height: 18px;
@@ -52,7 +53,14 @@ h1{
     font-size: 24px;
     color: #fff;
 }
-
+h1:hover, span:hover, .cyan{
+    color: hsl(178, 100%, 50%);
+}
+#main-img:hover{
+    opacity: 1;
+    transition: .5s ease;
+    background-color: hsl(178, 100%, 50%);
+}
 p{
     font-size: 18px;
     color: hsl(215, 51%, 70%);
@@ -63,9 +71,7 @@ p{
 }
 .attribution { font-size: 11px; text-align: center; color: #fff; }
 .attribution a { color: yellow; }
-.cyan{
-    color: hsl(178, 100%, 50%);
-}
+
 span{
     color: #fff;
 }
