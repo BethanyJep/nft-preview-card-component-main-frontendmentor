@@ -33,6 +33,10 @@ body {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    background: url('images/icon-view.svg') hsl(178, 100%, 50%);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .flex img{
@@ -56,10 +60,10 @@ h1{
 h1:hover, span:hover, .cyan{
     color: hsl(178, 100%, 50%);
 }
+
 #main-img:hover{
-    opacity: 1;
-    transition: .5s ease;
-    background-color: hsl(178, 100%, 50%);
+    opacity: .3;
+    content: img('images/icon-view.svg');
 }
 p{
     font-size: 18px;
